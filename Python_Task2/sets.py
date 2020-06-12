@@ -1,4 +1,4 @@
-#Initializing my_set
+#Initializing mySet
 mySet={1, 2, 3, 4, 5, 6}
 print(mySet)
 #Discard or remove an element

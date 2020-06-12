@@ -1,0 +1,25 @@
+Q1.Why is list used?
+Ans.
+Lists are one of the four built-in data structures in Python, together with tuples, dictionaries, and sets. 
+They are used to store an ordered collection of items, which might be of different types but usually they aren’t. 
+Commas separate the elements that are contained within a list and enclosed in square brackets.
+Since lists in Python store ordered collections of items or objects, we can say that they are sequence types, precisely 
+because they behave like a sequence.
+One main benefit of using a list in Python is that it’s a single tool that you can use in many different situations. 
+In addition to standard list creation, list comprehensions can be used for mapping and filtering. 
+We don’t have to use a different approach for each scenario.
+
+Q2.How do lists and sets differ?
+Ans.
+Lists and sets differ in the following ways:
+1)Just like dictionaries, sets have no order in their collection of items. Not like lists.
+2)Set requires the items contained in it to be hashable, lists store non-hashable items.
+3)Sets require your items to be unique and immutable. 
+Duplicates are not allowed in sets, while lists allow for duplicates and are mutable.
+
+Q3.Application of dictionaries with a real world example.
+Ans.
+Data storage - so instead of remembering that a person’s name is at list index 0, 
+and the address is at list index 1.We can create a dictionary with keys of 
+‘name’ and ‘address’. This makes our code more readable and helps to identify record
+easily and efficiently rather than remembering each and every record.

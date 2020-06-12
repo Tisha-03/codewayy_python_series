@@ -1,3 +1,7 @@
 # codewayy_python_series
-Hello,my name is Tisha Jain. Here, we will perform tasks related to python assign by codewayy.
-## It has given us an opportunity to learn and to discover new challenges.
+This repository contains series of python tasks starting from the very basics
+to an advanced level.
+In the beginning,we have been assigned task1 by codewayy
+## Task1:
+This consists of performing operations on integer and float values annd the use of string concatenation.
+### I hope this series will enhance my knowledge and skills.

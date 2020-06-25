@@ -1,31 +1,31 @@
-#Initializing my_set
-my_set={1, 2, 3, 4, 5, 6}
-print(my_set)
+#Initializing mySet
+mySet={1, 2, 3, 4, 5, 6}
+print(mySet)
 #Discard or remove an element
-my_set.discard(4)
-print(my_set)
-my_set.remove(6)
-print(my_set)
-#Initialize set A
-A=set("HelloWorld")
-print(A)#displays set of unique elements
+mySet.discard(4)
+print(mySet)
+mySet.remove(6)
+print(mySet)
+#Initialize setA
+setA=set("HelloWorld")
+print(setA)#displays set of unique elements
 #Pop an element
-print(A.pop())
-#Clear set A
-A.clear()
-print(A)
+print(setA.pop())
+#Clear setA
+setA.clear()
+print(setA)
 
 #Python set Operations
 
-#Initialize set B and C
-B={1, 2, 3, 4}
-C={4, 5, 6, 7}
+#Initialize setB and setC
+setB={1, 2, 3, 4}
+setC={4, 5, 6, 7}
 #Union Method
-print(B.union(C))
-print(C.union(B))
+print(setB.union(setC))
+print(setC.union(setB))
 #Intersection method
-print(B & C)
+print(setB & setC)
 #Set Difference method
-print(B - C)
+print(setB - setC)
 #Set Symmetric Difference method
-print(B ^ C)
+print(setB ^ setC)
